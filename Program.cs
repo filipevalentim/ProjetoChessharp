@@ -8,8 +8,7 @@ namespace ProjetoXadrez
     {
       Tabuleiro tab = new Tabuleiro(8, 8);
 
-/*      Posicao posicao = new Posicao(3, 4);
-      Console.WriteLine("Posição: " + posicao.ToString());*/
+      Tela.imprimirTabuleiro(tab);
     }
   }
 }
