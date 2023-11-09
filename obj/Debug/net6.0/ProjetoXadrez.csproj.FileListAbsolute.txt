@@ -1,0 +1,14 @@
+D:\Dropbox\Projetos\ProjetoXadrez\bin\Debug\net6.0\ProjetoXadrez.exe
+D:\Dropbox\Projetos\ProjetoXadrez\bin\Debug\net6.0\ProjetoXadrez.deps.json
+D:\Dropbox\Projetos\ProjetoXadrez\bin\Debug\net6.0\ProjetoXadrez.runtimeconfig.json
+D:\Dropbox\Projetos\ProjetoXadrez\bin\Debug\net6.0\ProjetoXadrez.dll
+D:\Dropbox\Projetos\ProjetoXadrez\bin\Debug\net6.0\ProjetoXadrez.pdb
+D:\Dropbox\Projetos\ProjetoXadrez\obj\Debug\net6.0\ProjetoXadrez.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dropbox\Projetos\ProjetoXadrez\obj\Debug\net6.0\ProjetoXadrez.AssemblyInfoInputs.cache
+D:\Dropbox\Projetos\ProjetoXadrez\obj\Debug\net6.0\ProjetoXadrez.AssemblyInfo.cs
+D:\Dropbox\Projetos\ProjetoXadrez\obj\Debug\net6.0\ProjetoXadrez.csproj.CoreCompileInputs.cache
+D:\Dropbox\Projetos\ProjetoXadrez\obj\Debug\net6.0\ProjetoXadrez.dll
+D:\Dropbox\Projetos\ProjetoXadrez\obj\Debug\net6.0\refint\ProjetoXadrez.dll
+D:\Dropbox\Projetos\ProjetoXadrez\obj\Debug\net6.0\ProjetoXadrez.pdb
+D:\Dropbox\Projetos\ProjetoXadrez\obj\Debug\net6.0\ProjetoXadrez.genruntimeconfig.cache
+D:\Dropbox\Projetos\ProjetoXadrez\obj\Debug\net6.0\ref\ProjetoXadrez.dll
