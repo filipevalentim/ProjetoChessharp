@@ -13,11 +13,12 @@ namespace tabuleiro
     }
     public override string ToString()
     {
-      StringBuilder sb = new StringBuilder();
+      return linha + ", " + coluna;
+/*      StringBuilder sb = new StringBuilder();
       sb.Append(linha);
       sb.Append(", ");
       sb.Append(coluna);
-      return sb.ToString();
+      return sb.ToString();*/
     }
   }
 }

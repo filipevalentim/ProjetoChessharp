@@ -1,5 +1,4 @@
-﻿using System.Text;
-using tabuleiro;
+﻿using tabuleiro;
 
 namespace ProjetoXadrez
 {
