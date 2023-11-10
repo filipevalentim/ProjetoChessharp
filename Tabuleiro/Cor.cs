@@ -1,8 +1,8 @@
 ﻿namespace tabuleiro
 {
-  enum Cor : int
+  enum Cor
   {
-    Branca = 0,
-    Preta = 1,
+    Branca,
+    Preta
   }
 }

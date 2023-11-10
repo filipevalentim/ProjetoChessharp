@@ -17,15 +17,12 @@ namespace ProjetoXadrez
       tab.colocarPeca(new Bispo(tab, Cor.Preta), new Posicao(0, 5));
       tab.colocarPeca(new Cavalo(tab, Cor.Preta), new Posicao(0, 6));
       tab.colocarPeca(new Torre(tab, Cor.Preta), new Posicao(0, 7));
-      
-      tab.colocarPeca(new Peao(tab, Cor.Preta), new Posicao(1, 0));
-      tab.colocarPeca(new Peao(tab, Cor.Preta), new Posicao(1, 1));
-      tab.colocarPeca(new Peao(tab, Cor.Preta), new Posicao(1, 2));
-      tab.colocarPeca(new Peao(tab, Cor.Preta), new Posicao(1, 3));
-      tab.colocarPeca(new Peao(tab, Cor.Preta), new Posicao(1, 4));
-      tab.colocarPeca(new Peao(tab, Cor.Preta), new Posicao(1, 5));
-      tab.colocarPeca(new Peao(tab, Cor.Preta), new Posicao(1, 6));
-      tab.colocarPeca(new Peao(tab, Cor.Preta), new Posicao(1, 7));
+
+      for (int i = 0; i < tab.linhas; i++)
+      {
+        tab.colocarPeca(new Peao(tab, Cor.Preta), new Posicao(1, i));
+        tab.colocarPeca(new Peao(tab, Cor.Branca), new Posicao(6, i));
+      }
 
       tab.colocarPeca(new Torre(tab, Cor.Branca), new Posicao(7, 0));
       tab.colocarPeca(new Cavalo(tab, Cor.Branca), new Posicao(7, 1));
@@ -35,15 +32,6 @@ namespace ProjetoXadrez
       tab.colocarPeca(new Bispo(tab, Cor.Branca), new Posicao(7, 5));
       tab.colocarPeca(new Cavalo(tab, Cor.Branca), new Posicao(7, 6));
       tab.colocarPeca(new Torre(tab, Cor.Branca), new Posicao(7, 7));
-
-      tab.colocarPeca(new Peao(tab, Cor.Branca), new Posicao(6, 0));
-      tab.colocarPeca(new Peao(tab, Cor.Branca), new Posicao(6, 1));
-      tab.colocarPeca(new Peao(tab, Cor.Branca), new Posicao(6, 2));
-      tab.colocarPeca(new Peao(tab, Cor.Branca), new Posicao(6, 3));
-      tab.colocarPeca(new Peao(tab, Cor.Branca), new Posicao(6, 4));
-      tab.colocarPeca(new Peao(tab, Cor.Branca), new Posicao(6, 5));
-      tab.colocarPeca(new Peao(tab, Cor.Branca), new Posicao(6, 6));
-      tab.colocarPeca(new Peao(tab, Cor.Branca), new Posicao(6, 7));
 
       Tela.imprimirTabuleiro(tab);
     }
