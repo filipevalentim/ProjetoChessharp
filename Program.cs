@@ -41,9 +41,6 @@ namespace ProjetoXadrez
       {
         Console.WriteLine(e.Message);
       }
-
-      PosicaoXadrez pos = new PosicaoXadrez('e', 6);
-      Console.WriteLine(pos.toPosicao());
     }
   }
 }
