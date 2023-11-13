@@ -27,7 +27,7 @@ namespace xadrez
         {
           mat[pos.linha, pos.coluna] = true;
         }
-        // Nordeste Branca
+/*        // Nordeste Branca
         pos.definirValores(posicao.linha - 1, posicao.coluna + 1);
         if (tab.posicaoValida(pos) && podeMover(pos))
         {
@@ -38,7 +38,7 @@ namespace xadrez
         if (tab.posicaoValida(pos) && podeMover(pos))
         {
           mat[pos.linha, pos.coluna] = true;
-        }
+        }*/
       }
       else
       {
@@ -48,7 +48,7 @@ namespace xadrez
         {
           mat[pos.linha, pos.coluna] = true;
         }
-        // Noroeste Preta
+/*        // Noroeste Preta
         pos.definirValores(posicao.linha + 1, posicao.coluna - 1);
         if (tab.posicaoValida(pos) && podeMover(pos))
         {
@@ -59,7 +59,7 @@ namespace xadrez
         if (tab.posicaoValida(pos) && podeMover(pos))
         {
           mat[pos.linha, pos.coluna] = true;
-        }
+        }*/
       }
       return mat;
     }
