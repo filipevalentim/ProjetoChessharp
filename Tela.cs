@@ -1,6 +1,4 @@
-﻿using System.Diagnostics.CodeAnalysis;
-using System.Drawing;
-using tabuleiro;
+﻿using tabuleiro;
 using xadrez;
 
 namespace ProjetoXadrez
