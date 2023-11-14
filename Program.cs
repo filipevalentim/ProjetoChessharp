@@ -31,6 +31,7 @@ namespace ProjetoXadrez
           Console.WriteLine();
           Console.Write("Destino: ");
           Posicao destino = Tela.lerPosicaoXadrez().toPosicao();
+          
           partida.validarPosicaoDeDestino(origem, destino);
 
           partida.realizarJogada(origem, destino);
