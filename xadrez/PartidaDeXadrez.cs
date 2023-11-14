@@ -10,8 +10,6 @@ namespace xadrez
     public bool terminada { get; private set; }
     private HashSet<Peca> pecas;
     private HashSet<Peca> capturadas;
-    //private HashSet<Peca> pecas = new HashSet<Peca>();
-    //private HashSet<Peca> capturadas = new HashSet<Peca>();
     public bool xeque {  get; private set; }
     public PartidaDeXadrez()
     {
@@ -212,58 +210,47 @@ namespace xadrez
     }
     private void colocarPecas()
     {
-/*      colocarNovaPeca('a', 8, new Torre(tab, Cor.Preta));
+      colocarNovaPeca('a', 8, new Torre(tab, Cor.Preta));
       colocarNovaPeca('b', 8, new Cavalo(tab, Cor.Preta));
       colocarNovaPeca('c', 8, new Bispo(tab, Cor.Preta));
       colocarNovaPeca('d', 8, new Rei(tab, Cor.Preta));
       colocarNovaPeca('e', 8, new Dama(tab, Cor.Preta));
       colocarNovaPeca('f', 8, new Bispo(tab, Cor.Preta));
       colocarNovaPeca('g', 8, new Cavalo(tab, Cor.Preta));
-      colocarNovaPeca('h', 8, new Torre(tab, Cor.Preta));*/
+      colocarNovaPeca('h', 8, new Torre(tab, Cor.Preta));
 
-/*      for (int i = 0; i < tab.linhas; i++)
-      {
-        //tab.colocarPeca(new Peao(tab, Cor.Preta), new Posicao(1, i));
-        //tab.colocarPeca(new Peao(tab, Cor.Branca), new Posicao(6, i));
-
-        colocarNovoPeao(1, i, new Peao(tab, Cor.Preta));
-        colocarNovoPeao(6, i, new Peao(tab, Cor.Branca));
-      }*/
-
-/*      colocarNovaPeca('a', 1, new Torre(tab, Cor.Branca));
-      colocarNovaPeca('b', 1, new Cavalo(tab, Cor.Branca));
-      colocarNovaPeca('c', 1, new Bispo(tab, Cor.Branca));
-      colocarNovaPeca('d', 1, new Rei(tab, Cor.Branca));
-      colocarNovaPeca('e', 1, new Dama(tab, Cor.Branca));
-      colocarNovaPeca('f', 1, new Bispo(tab, Cor.Branca));
-      colocarNovaPeca('g', 1, new Cavalo(tab, Cor.Branca));
-      colocarNovaPeca('h', 1, new Torre(tab, Cor.Branca));*/
-
-/*      colocarNovaPeca('a', 7, new Peao(tab, Cor.Preta));
+      colocarNovaPeca('a', 7, new Peao(tab, Cor.Preta));
       colocarNovaPeca('b', 7, new Peao(tab, Cor.Preta));
       colocarNovaPeca('c', 7, new Peao(tab, Cor.Preta));
       colocarNovaPeca('d', 7, new Peao(tab, Cor.Preta));
       colocarNovaPeca('e', 7, new Peao(tab, Cor.Preta));
       colocarNovaPeca('f', 7, new Peao(tab, Cor.Preta));
       colocarNovaPeca('g', 7, new Peao(tab, Cor.Preta));
-      colocarNovaPeca('h', 7, new Peao(tab, Cor.Preta));*/
+      colocarNovaPeca('h', 7, new Peao(tab, Cor.Preta));
 
-      colocarNovaPeca('b', 8, new Torre(tab, Cor.Preta));
-      colocarNovaPeca('a', 8, new Rei(tab, Cor.Preta));
-      //colocarNovaPeca('e', 8, new Torre(tab, Cor.Preta));
+/*      for (int i = 0; i < tab.linhas; i++)
+      {
+        colocarNovoPeao(1, i, new Peao(tab, Cor.Preta));
+        colocarNovoPeao(6, i, new Peao(tab, Cor.Branca));
+      }*/
 
-/*      colocarNovaPeca('a', 2, new Peao(tab, Cor.Branca));
+      colocarNovaPeca('a', 2, new Peao(tab, Cor.Branca));
       colocarNovaPeca('b', 2, new Peao(tab, Cor.Branca));
       colocarNovaPeca('c', 2, new Peao(tab, Cor.Branca));
       colocarNovaPeca('d', 2, new Peao(tab, Cor.Branca));
       colocarNovaPeca('e', 2, new Peao(tab, Cor.Branca));
       colocarNovaPeca('f', 2, new Peao(tab, Cor.Branca));
       colocarNovaPeca('g', 2, new Peao(tab, Cor.Branca));
-      colocarNovaPeca('h', 2, new Peao(tab, Cor.Branca));*/
+      colocarNovaPeca('h', 2, new Peao(tab, Cor.Branca));
 
-      colocarNovaPeca('c', 1, new Torre(tab, Cor.Branca));
+      colocarNovaPeca('a', 1, new Torre(tab, Cor.Branca));
+      colocarNovaPeca('b', 1, new Cavalo(tab, Cor.Branca));
+      colocarNovaPeca('c', 1, new Bispo(tab, Cor.Branca));
       colocarNovaPeca('d', 1, new Rei(tab, Cor.Branca));
-      colocarNovaPeca('h', 7, new Torre(tab, Cor.Branca));
+      colocarNovaPeca('e', 1, new Dama(tab, Cor.Branca));
+      colocarNovaPeca('f', 1, new Bispo(tab, Cor.Branca));
+      colocarNovaPeca('g', 1, new Cavalo(tab, Cor.Branca));
+      colocarNovaPeca('h', 1, new Torre(tab, Cor.Branca));
     }
   }
 }
