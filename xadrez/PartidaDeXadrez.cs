@@ -8,10 +8,10 @@ namespace xadrez
     public int turno { get; private set; }
     public Cor jogadorAtual { get; private set; }
     public bool terminada { get; private set; }
-    private HashSet<Peca> pecas;
-    private HashSet<Peca> capturadas;
-    //private HashSet<Peca> pecas = new HashSet<Peca>();
-    //private HashSet<Peca> capturadas = new HashSet<Peca>();
+    //private HashSet<Peca> pecas;
+    //private HashSet<Peca> capturadas;
+    private HashSet<Peca> pecas = new HashSet<Peca>();
+    private HashSet<Peca> capturadas = new HashSet<Peca>();
     public PartidaDeXadrez()
     {
       tab = new Tabuleiro(8, 8);
