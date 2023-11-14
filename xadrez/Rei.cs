@@ -5,7 +5,7 @@ namespace xadrez
   class Rei : Peca
   {
     private PartidaDeXadrez partida;
-    public Rei(Tabuleiro tab, Cor cor, PosicaoXadrez partida) : base(tab, cor)
+    public Rei(Tabuleiro tab, Cor cor, PartidaDeXadrez partida) : base(tab, cor)
     {
       this.partida = partida;
     }
@@ -76,7 +76,6 @@ namespace xadrez
       {
         mat[pos.linha, pos.coluna] = true;
       }
-
       // #JogadaEspecial: roque
       if (qteMovimentos == 0 && !partida.xeque)
       {
@@ -88,10 +87,11 @@ namespace xadrez
           Posicao p2 = new Posicao(posicao.linha, posicao.coluna + 2);
           if (tab.peca(p1) == null && tab.peca(p2) == null)
           {
-            mat[posicao.linha,posicao.coluna + 2] = true;
+            mat[posicao.linha, posicao.coluna + 2] = true;
           }
-        }// #JogadaEspecial: roque grande
-        Posicao posT2 = new Posicao(posicao.linha, posicao.coluna - 3);
+        }
+        // #JogadaEspecial: roque grande
+        Posicao posT2 = new Posicao(posicao.linha, posicao.coluna - 4);
         if (testeTorreParaRoque(posT2))
         {
           Posicao p1 = new Posicao(posicao.linha, posicao.coluna - 1);
@@ -99,7 +99,7 @@ namespace xadrez
           Posicao p3 = new Posicao(posicao.linha, posicao.coluna - 3);
           if (tab.peca(p1) == null && tab.peca(p2) == null && tab.peca(p3) == null)
           {
-            mat[posicao.linha,posicao.coluna - 2] = true;
+            mat[posicao.linha, posicao.coluna - 2] = true;
           }
         }
       }
