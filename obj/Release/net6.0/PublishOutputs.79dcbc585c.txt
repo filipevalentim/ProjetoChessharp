@@ -1,0 +1,5 @@
+D:\Dropbox\Projetos\ProjetoXadrez\bin\Release\net6.0\publish\ProjetoXadrez.exe
+D:\Dropbox\Projetos\ProjetoXadrez\bin\Release\net6.0\publish\ProjetoXadrez.dll
+D:\Dropbox\Projetos\ProjetoXadrez\bin\Release\net6.0\publish\ProjetoXadrez.deps.json
+D:\Dropbox\Projetos\ProjetoXadrez\bin\Release\net6.0\publish\ProjetoXadrez.runtimeconfig.json
+D:\Dropbox\Projetos\ProjetoXadrez\bin\Release\net6.0\publish\ProjetoXadrez.pdb

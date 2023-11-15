@@ -379,12 +379,13 @@ namespace xadrez
       colocarNovaPeca('f', 1, new Bispo(tab, Cor.Branca));
       colocarNovaPeca('g', 1, new Cavalo(tab, Cor.Branca));
       colocarNovaPeca('h', 1, new Torre(tab, Cor.Branca));
-
-/*      colocarNovaPeca('e', 1, new Rei(tab, Cor.Branca, this));
+/*
+      colocarNovaPeca('e', 1, new Rei(tab, Cor.Branca, this));
       colocarNovaPeca('e', 8, new Rei(tab, Cor.Preta, this));
 
       colocarNovaPeca('b', 2, new Peao(tab, Cor.Preta, this));
-      colocarNovaPeca('b', 7, new Peao(tab, Cor.Branca, this));*/
+      colocarNovaPeca('b', 7, new Peao(tab, Cor.Branca, this));
+*/
     }
   }
 }
