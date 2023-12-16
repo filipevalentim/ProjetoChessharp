@@ -2,7 +2,7 @@ using tabuleiro;
 
 namespace xadrez
 {
-    class PosicaoXadrez
+  sealed class PosicaoXadrez
     {
         public char coluna { get; set; }
         public int linha { get; set; }

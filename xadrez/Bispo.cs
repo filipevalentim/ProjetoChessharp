@@ -2,7 +2,7 @@
 
 namespace xadrez
 {
-  class Bispo : Peca
+  sealed class Bispo : Peca
   {
     public Bispo(Tabuleiro tab, Cor cor) : base(tab, cor) { }
     public override string ToString()

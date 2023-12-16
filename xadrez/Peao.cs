@@ -2,7 +2,7 @@
 
 namespace xadrez
 {
-  class Peao : Peca
+  sealed class Peao : Peca
   {
     private PartidaDeXadrez partida;
     public Peao(Tabuleiro tab, Cor cor, PartidaDeXadrez partida) : base(tab, cor)

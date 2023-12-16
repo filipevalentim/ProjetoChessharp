@@ -3,7 +3,7 @@ using xadrez;
 
 namespace ProjetoXadrez
 {
-  class Tela
+  sealed class Tela
   {
     public static void imprimirPartida(PartidaDeXadrez partida)
     {
