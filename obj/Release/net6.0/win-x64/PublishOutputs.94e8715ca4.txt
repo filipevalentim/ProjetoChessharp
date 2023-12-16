@@ -1,0 +1,2 @@
+D:\Dropbox\Projetos\ProjetoXadrez\bin\Release\net6.0\publish\win-x64\ProjetoXadrez.pdb
+D:\Dropbox\Projetos\ProjetoXadrez\bin\Release\net6.0\publish\win-x64\ProjetoXadrez.exe
