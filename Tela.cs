@@ -7,7 +7,7 @@ namespace ProjetoXadrez
   {
     public static void imprimirPartida(PartidaDeXadrez partida)
     {
-      Tela.imprimirTabuleiro(partida.tab);
+      imprimirTabuleiro(partida.tab);
       Console.WriteLine();
       imprimirPecasCapturadas(partida);
       Console.WriteLine();

@@ -220,7 +220,6 @@ D:\Dropbox\Projetos\ProjetoXadrez\bin\Release\net6.0\win-x64\dbgshim.dll
 D:\Dropbox\Projetos\ProjetoXadrez\bin\Release\net6.0\win-x64\hostfxr.dll
 D:\Dropbox\Projetos\ProjetoXadrez\bin\Release\net6.0\win-x64\hostpolicy.dll
 D:\Dropbox\Projetos\ProjetoXadrez\bin\Release\net6.0\win-x64\mscordaccore.dll
-D:\Dropbox\Projetos\ProjetoXadrez\bin\Release\net6.0\win-x64\mscordaccore_amd64_amd64_6.0.2423.51814.dll
 D:\Dropbox\Projetos\ProjetoXadrez\bin\Release\net6.0\win-x64\mscordbi.dll
 D:\Dropbox\Projetos\ProjetoXadrez\bin\Release\net6.0\win-x64\mscorrc.dll
 D:\Dropbox\Projetos\ProjetoXadrez\bin\Release\net6.0\win-x64\msquic.dll
@@ -235,3 +234,4 @@ D:\Dropbox\Projetos\ProjetoXadrez\obj\Release\net6.0\win-x64\refint\ProjetoXadre
 D:\Dropbox\Projetos\ProjetoXadrez\obj\Release\net6.0\win-x64\ProjetoXadrez.pdb
 D:\Dropbox\Projetos\ProjetoXadrez\obj\Release\net6.0\win-x64\ProjetoXadrez.genruntimeconfig.cache
 D:\Dropbox\Projetos\ProjetoXadrez\obj\Release\net6.0\win-x64\ref\ProjetoXadrez.dll
+D:\Dropbox\Projetos\ProjetoXadrez\bin\Release\net6.0\win-x64\mscordaccore_amd64_amd64_6.0.2523.51912.dll

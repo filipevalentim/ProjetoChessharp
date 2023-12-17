@@ -9,49 +9,49 @@
     ".NETCoreApp,Version=v6.0/win-x64": {
       "ProjetoXadrez/1.0.0": {
         "dependencies": {
-          "runtimepack.Microsoft.NETCore.App.Runtime.win-x64": "6.0.24"
+          "runtimepack.Microsoft.NETCore.App.Runtime.win-x64": "6.0.25"
         },
         "runtime": {
           "ProjetoXadrez.dll": {}
         }
       },
-      "runtimepack.Microsoft.NETCore.App.Runtime.win-x64/6.0.24": {
+      "runtimepack.Microsoft.NETCore.App.Runtime.win-x64/6.0.25": {
         "runtime": {
           "System.Collections.Immutable.dll": {
             "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.2423.51814"
+            "fileVersion": "6.0.2523.51912"
           },
           "System.Collections.dll": {
             "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.2423.51814"
+            "fileVersion": "6.0.2523.51912"
           },
           "System.Console.dll": {
             "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.2423.51814"
+            "fileVersion": "6.0.2523.51912"
           },
           "System.Diagnostics.StackTrace.dll": {
             "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.2423.51814"
+            "fileVersion": "6.0.2523.51912"
           },
           "System.IO.Compression.dll": {
             "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.2423.51814"
+            "fileVersion": "6.0.2523.51912"
           },
           "System.IO.MemoryMappedFiles.dll": {
             "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.2423.51814"
+            "fileVersion": "6.0.2523.51912"
           },
           "System.Private.CoreLib.dll": {
             "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.2423.51814"
+            "fileVersion": "6.0.2523.51912"
           },
           "System.Reflection.Metadata.dll": {
             "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.2423.51814"
+            "fileVersion": "6.0.2523.51912"
           },
           "System.Runtime.dll": {
             "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.2423.51814"
+            "fileVersion": "6.0.2523.51912"
           }
         }
       }
@@ -63,7 +63,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "runtimepack.Microsoft.NETCore.App.Runtime.win-x64/6.0.24": {
+    "runtimepack.Microsoft.NETCore.App.Runtime.win-x64/6.0.25": {
       "type": "runtimepack",
       "serviceable": false,
       "sha512": ""
